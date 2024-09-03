@@ -14,8 +14,7 @@ export default {
             name: "sections",
             title: "Sections",
             type: "array",
-            of: [
-            ]
+            of: [{type:"content"}, {type: "customImage"}]
         }
     ]
 }
